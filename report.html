@@ -4,7 +4,7 @@
   <style>
     table {
       border-collapse: collapse;
-      width: 100%;
+      width: 50%;
     }
 
     th, td {
@@ -18,19 +18,32 @@
     }
 
     /* Set width for columns */
-    th:nth-child(3),
+    /*th:nth-child(3),*/
     td:nth-child(3) {
-      width: 2 times the width of other columns;
+      width: 70%;
     }
+
+    header {
+      background-color: #34a1eb;
+      border: 1px solid black;
+      font-size: 40px;
+      font-family: Arial, Helvetica, sans-serif;
+      width: 50%;
+      margin-bottom: 20px;
+    }
+
   </style>
 </head>
 <body>
+  <header class="header">
+    Regiebericht / Arbeitsnachweis
+  </header>
   <table>
     <thead>
       <tr>
-        <th>Header 1</th>
-        <th>Header 2</th>
-        <th>Header 3</th>
+        <th>Datum</th>
+        <th>NAME MA</th>
+        <th>BESCHÄFTIGUNG</th>
       </tr>
     </thead>
     <tbody>
